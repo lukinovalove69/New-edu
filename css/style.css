@@ -219,6 +219,27 @@ em {
     color: #EA5D21;
 }
 
+.intro-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-aside {
+
+}
+.blockquote {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+    color: #646464; 
+}
+
+.aside-italic {
+    color: #646464;
+}
+
 /* Students */
 
 .students {
