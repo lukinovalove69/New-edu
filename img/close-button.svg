@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">
+  <defs>
+    <style>
+      .a {
+        fill: #ea5d21;
+      }
+
+      .b {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="a" cx="44" cy="44" r="44"/>
+    <line class="b" x1="64.6" y1="22.2" x2="23.4" y2="65.8"/>
+    <line class="b" x1="22.79" y1="22.79" x2="65.21" y2="65.21"/>
+  </g>
+</svg>
