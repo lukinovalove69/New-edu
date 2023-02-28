@@ -242,7 +242,6 @@ em {
 
 .intro-aside {
     margin: 0 auto;
-
 }
 .blockquote {
     font-family: 'Lobster';
@@ -371,7 +370,7 @@ em {
 
 @media (max-width: 920px) {
     .header {
-        width: 70%;
+        width: 100%;
         justify-content: center;
         padding: 1em 16px;
         gap: 1em;
@@ -395,7 +394,7 @@ em {
 
     .map {
         min-width: 75%;
-        min-height: 75%;
+        min-height: 75%; 
         padding: 0 4%; 
     }
 
@@ -435,6 +434,7 @@ em {
         padding: 0 2%;
         font-size: 16px;
         width: auto;
+        margin-bottom: 40px;
     }
 
     .h2 {
@@ -448,6 +448,14 @@ em {
 
     .copyright {
         font-size: 14px;
+    }
+
+    .blockquote {
+        margin-left: 50px;
+    }
+
+    .blockquote::after {
+        margin-right: 50px;
     }
 }
 
