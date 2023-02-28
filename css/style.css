@@ -241,6 +241,7 @@ em {
 }
 
 .intro-aside {
+    margin: 0 auto;
 
 }
 .blockquote {
@@ -370,7 +371,10 @@ em {
 
 @media (max-width: 920px) {
     .header {
-        width: 100%;
+        width: 70%;
+        justify-content: center;
+        padding: 1em 16px;
+        gap: 1em;
     }
 
     .site-logo {
@@ -389,6 +393,12 @@ em {
         padding: 0 4%;
     }
 
+    .map {
+        min-width: 75%;
+        min-height: 75%;
+        padding: 0 4%; 
+    }
+
     .menu-link {
         font-size: 14px;
     }
@@ -401,6 +411,8 @@ em {
     }
 
     .main {
+        box-sizing: border-box;
+        padding: 0 2vw;
         width: auto;
     }
 
